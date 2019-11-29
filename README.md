@@ -7,7 +7,8 @@ Follow the steps to see the application's working:
 
 ![Image of index page](outputs/index.jpg)
 
-2. Next enter the documents and click **Index**
+2. Next enter the documents and click **Index**.
+
 
 3. Documents once indexed will be acknowledged as shown below.
 
