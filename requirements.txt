@@ -1,0 +1,11 @@
+aniso8601
+Click
+Flask==1.1.1
+Flask-RESTful
+gunicorn==20.0.4
+itsdangerous
+Jinja2
+MarkupSafe
+pytz
+six
+Werkzeug==0.16.0
