@@ -43,6 +43,8 @@ def search():
                 return render_template('search_results.html', ptype='nfound', message='No match found!!')
             else:
                 output = [doc_id.get(_id, None) for _id in index.get(word)]
+                if len(output) > 10:
+                    output = output[:10]
                 return render_template('search_results.html', output=output, ptype='found')
         else:
             return render_template('search_results.html', message='No index found!!', ptype='nexists')
